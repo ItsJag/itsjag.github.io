@@ -26,10 +26,7 @@ a {
     text-decoration: none;
 }
 
-.social-icon {
-    width: 26px;
-    padding-right: 10px;
-}
+
 
 .profile-image {
     display: block;
@@ -132,6 +129,7 @@ a {
 
 .skill-highlight > div {
     text-align: center;
+    align-items: center;
 
 }
 
@@ -194,6 +192,13 @@ a {
     font-size: 30px;
 }
 
+
 .skills > li {
     padding-right: 10px;
+}
+
+.social-icon {
+    width: 26px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
