@@ -103,20 +103,6 @@ a {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-#cv {
-    text-align: center;
-    padding-bottom: 20px;
-    color: aliceblue;
-    background-color:  rgba(255, 255, 255, .15);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
-    padding: 5px;
-    border-radius: 10px;
-    font-size: 20px;
-    text-shadow: 1px 1px 1px #222222;
-    font-family: 'Nunito Sans', sans-serif;
-}
-
 .section-header {
     color: rgb(123, 81, 164);
     text-align: left;
