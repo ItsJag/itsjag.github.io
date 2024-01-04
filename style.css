@@ -103,6 +103,20 @@ a {
     font-family: 'Nunito Sans', sans-serif;
 }
 
+#cv {
+    text-align: center;
+    padding-bottom: 20px;
+    color: aliceblue;
+    background-color:  rgba(255, 255, 255, .15);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #222222;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
 .section-header {
     color: rgb(123, 81, 164);
     text-align: left;
@@ -113,6 +127,8 @@ a {
     list-style-type: none;
     display: inline-block;
     text-align: left;
+    width: 80%;
+    text-align: center;
 }
 
 .skill-highlight > li {
@@ -126,7 +142,6 @@ a {
     border-width: 1px;
     border-spacing: 10px;
     background-color: rgba(101, 36, 166, 0.1);
-    font-weight:lighter;
     margin: 5px;
     line-height: 150%;
     display: inline-block;
@@ -134,15 +149,12 @@ a {
     white-space: pre-wrap;
     word-break: break-word;
     font-family: 'Poppins', sans-serif;
+    font-size: small;
 }
 
 .skill-highlight {
     text-align: center;
     align-items: center;
-}
-
-.skill-highlight > div {
-    width: 80%;
 }
 
 .project-div {
