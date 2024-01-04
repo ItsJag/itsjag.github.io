@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz@1,6..12&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
 h2, h3, h4 {
     font-family: "Roboto", sans-serif;
@@ -14,7 +16,7 @@ h1 {
 }
 
 h3 {
-    color: rgb(150, 169, 190);
+    color: rgb(121, 110, 159);
 }
 
 p {
@@ -24,6 +26,11 @@ p {
 a {
     font-family: 'Nunito', sans-serif;
     text-decoration: none;
+}
+
+
+.footer {
+    text-align: center;
 }
 
 
@@ -38,7 +45,7 @@ a {
     max-width: 300px;
     min-width: 100px;
     border-radius: 50%;
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, .4); 
     background-color: rgba(255, 255, 255, .2);
     backdrop-filter: blur(5px);
     transition: transform .7s ease-in-out, opacity .7s ease-in-out;
@@ -66,8 +73,8 @@ a {
     opacity: 100%;
 }
 
-.pagetitle {
-    color: dimgray;
+.page-title {
+    color: rgb(109, 83, 134);
     text-align: center;
     padding-bottom: 10px;
     margin-bottom: 0;
@@ -76,7 +83,7 @@ a {
 .title-div {
     /* background-color:#efe7f1; */
     background: rgb(239,231,241);
-    background: linear-gradient(0deg, rgba(239,231,241,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgb(223, 223, 223) 0%, rgb(255, 255, 255) 100%);
     display:block;
     width:100%;
     background-size: cover;
@@ -91,12 +98,13 @@ a {
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
     padding: 5px;
     border-radius: 10px;
-    font-size: medium;
+    font-size: 20px;
     text-shadow: 1px 1px 1px #222222;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
-.sectionheader {
-    color: rgb(118, 158, 204);
+.section-header {
+    color: rgb(123, 81, 164);
     text-align: left;
     margin-left: 20%;
 }
@@ -110,14 +118,14 @@ a {
 .skill-highlight > li {
     width: max-content;
     padding: 5px;
-    color:gray;
+    color: #864a5b;
     list-style-type: none;
     border: rgba(0, 0, 0, .1);
     border-style: solid;
     border-radius: 10px;
     border-width: 1px;
     border-spacing: 10px;
-    background-color: rgba(0, 38, 255, 0.05);
+    background-color: rgba(101, 36, 166, 0.1);
     font-weight:lighter;
     margin: 5px;
     line-height: 150%;
@@ -125,12 +133,16 @@ a {
     word-wrap:break-word;
     white-space: pre-wrap;
     word-break: break-word;
+    font-family: 'Poppins', sans-serif;
+}
+
+.skill-highlight {
+    text-align: center;
+    align-items: center;
 }
 
 .skill-highlight > div {
-    text-align: center;
-    align-items: center;
-
+    width: 80%;
 }
 
 .project-div {
