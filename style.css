@@ -4,9 +4,17 @@ h2, h3, h4 {
     font-family: "Roboto", sans-serif;
 }
 
+hr {
+    color:rgb(204, 204, 204)
+}
+
 h1 {
     font-family: "Roboto", sans-serif;
     text-align: center;
+}
+
+h3 {
+    color: rgb(150, 169, 190);
 }
 
 p {
@@ -18,6 +26,10 @@ a {
     text-decoration: none;
 }
 
+.social-icon {
+    width: 26px;
+    padding-right: 10px;
+}
 
 .profile-image {
     display: block;
@@ -41,32 +53,61 @@ a {
     
 }
 
+.parallax-section {
+    display: flex;
+    min-height: 50vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-attachment: fixed;
+    background-image: url(media/kilburn_building.jpg);
+    background-position: center;
+    background-size: cover;
+    color: var(--color);
+    row-gap: 4rem;
+    opacity: 100%;
+}
+
 .pagetitle {
     color: dimgray;
     text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 0;
 }
 
 .title-div {
-    background-color:#efe7f1;
-    display:contents;
+    /* background-color:#efe7f1; */
+    background: rgb(239,231,241);
+    background: linear-gradient(0deg, rgba(239,231,241,1) 0%, rgba(255,255,255,1) 100%);
+    display:block;
+    width:100%;
+    background-size: cover;
 }
 
 .subtitle {
     text-align: center;
-
+    padding-bottom: 20px;
+    color: aliceblue;
+    background-color:  rgba(255, 255, 255, .15);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    padding: 5px;
+    border-radius: 10px;
+    font-size: medium;
+    text-shadow: 1px 1px 1px #222222;
 }
 
 .sectionheader {
-    color: rgb(110, 109, 109);
+    color: rgb(118, 158, 204);
     text-align: left;
+    margin-left: 20%;
 }
 
 .skill-highlight > ul {
     list-style-type: none;
-    display: block;
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
+    display: inline-block;
+    text-align: left;
 }
 
 .skill-highlight > li {
@@ -79,10 +120,28 @@ a {
     border-radius: 10px;
     border-width: 1px;
     border-spacing: 10px;
-    background-color: rgba(0, 0, 0, .05);
+    background-color: rgba(0, 38, 255, 0.05);
     font-weight:lighter;
-    margin: auto;
+    margin: 5px;
     line-height: 150%;
+    display: inline-block;
+    word-wrap:break-word;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.skill-highlight > div {
+    text-align: center;
+
+}
+
+.project-div {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.indented-text {
+    margin-left: 5%;
 }
 
 /* Header Stylisation */
@@ -114,4 +173,27 @@ a {
 
 .header > li a:hover {
     font-weight: bold;
+}
+
+
+
+/*  Links  */
+
+.skills {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+  
+.skills > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.skills > li {
+    padding-right: 10px;
 }
