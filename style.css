@@ -91,27 +91,42 @@ a {
 }
 
 .edu-text {
-    align-content: center;
-    text-align: center;
+    text-align: left;
     color: #374054;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     margin: auto;
+    margin-left: 10px;
     font-weight: 300;
+    width: 100%;
 }
 
 .edu-info {
-    display: flex;
-    width: 10%;
+    display: absolute;
     margin: auto;
-    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: right;
 }
 
-.project-links-div {
+.edu-div {
     display: flex;
     width: 50%;
     margin: auto;
+    margin-bottom: 16px;
+    margin-top: 16px;
 }
+
+.edu-header {
+    color: rgb(123, 81, 164);
+    text-align: center;
+    font-size: x-large;
+    float: left;
+    padding: 10px;
+    border-right: 2px solid rgb(204, 204, 204);
+}
+
+
 
 
 .title-div {
@@ -161,7 +176,7 @@ a {
     white-space: pre-wrap;
     word-break: break-word;
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 
@@ -174,26 +189,65 @@ a {
 }
 
 .project-div {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    max-width: 900px;
     border-style: solid;
     border-radius: 20px;
     border-width: 0px;
     background-color: #f2f2f5;
     border-spacing: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.project-img {
+    box-sizing: border-box;
+    float: left;
+    max-width: 300px;
+}
+
+.project-title {
+    margin: auto;
+    width: 80%;
+    border-right: 2px solid rgb(204, 204, 204);
 }
 
 .project-links {
     text-align: center;
     margin: auto;
+    float:inline-end;
+    font-size: 14px;
 }
 
+.project-links-div {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+}
 
-.indented-text {
-    margin-left: 5%;
+.project-info {
+    position: absolute;
+    margin-left: 300px;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 15px;
+}
+
+.project-desc {
+    margin: auto;
+    font-size: 14px;
+}
+
+.project-title-div {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 16px;
+    margin-top: 16px;
 }
 
 /* Header Stylisation */
